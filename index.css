@@ -93,3 +93,26 @@ body {
 .col-12 {
 	width: calc((100% / 2)*12);
 }
+
+/* Mobile First Approach */
+/* Large Devices */
+
+/* Small Devices */
+@media (min-width:  548px){
+	body {
+		background-color: lightyellow;
+	}
+}
+
+/* Medium Devices */
+@media (min-width: 768px) {
+	body {
+		background-color: lightgreen;
+	}
+}
+@media (min-width: 992px) {
+	body {
+		background-color: lightblue;
+	}
+}
+
